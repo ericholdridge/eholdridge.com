@@ -27,8 +27,11 @@ html {
 body {
   max-width: 80%;
   margin: 0 auto;
-  padding: 20rem 0;
+  padding: 10rem 0;
   background: var(--background);
+  @media(min-width: 641px) {
+   padding: 20rem 0;
+  }
   @media(min-width: 1024px) {
     max-width: 600px;
   }
